@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='myapp'>
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<script type="text/javascript" src='js/angular.js'></script>
+	<script type="text/javascript" src="js/angular-ui-router.js"></script>
+	<script type="text/javascript" src='app.js'></script>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<div class="header">
+		<a ui-sref="a">A链接</a>
+		<a ui-sref="b">B链接</a>
+		<a ui-sref="c">C链接</a>
+	</div>
+	<div ui-view>
+		<span style="color: #ccc;font-size: 12px;font-family: 'Microsoft YaHei', Verdana;">loading......</span>
+	</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "angular-router",
+  "version": "1.0.0",
+  "description": "node server",
+  "scripts":{
+      "start": "http-server -a 127.0.0.1 -p 8000"
+  },
+  "dependencies": {
+    "http-server": "^0.8.5"
+  }
+}
